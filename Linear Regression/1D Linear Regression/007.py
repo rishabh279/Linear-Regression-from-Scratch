@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset=pd.read_csv('E:/RS/ML/lazy/self code lazy/Linear Regression/data_1d.csv',header=None)
+dataset=pd.read_csv('',header=None)
 X=dataset.iloc[:,0]
 Y=dataset.iloc[:,1]
 

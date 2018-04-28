@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#dataset=pd.read_csv('E:/RS/ML/lazy/self code lazy/Linear Regression/moore.csv',header=None)
+#dataset=pd.read_csv('',header=None)
 
 X=[]
 Y=[]

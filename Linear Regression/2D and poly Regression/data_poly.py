@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np 
 
-dataset=pd.read_csv('E:/RS/ML/lazy/self code lazy/Linear Regression/data_poly.csv',header=None)
+dataset=pd.read_csv('',header=None)
 X=dataset.iloc[:,0]
 X=pd.concat([X,np.square(dataset.iloc[:,0])],axis=1)
 Y=dataset.iloc[:,1]

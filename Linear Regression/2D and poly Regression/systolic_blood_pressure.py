@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('E:/RS/ML/lazy/self code lazy/Linear Regression/bloodpressure.csv')
+dataset=pd.read_csv('')
 dataset['one']=1
 X=dataset.loc[:,['X2','X3','one']]
 Y=dataset.loc[:,['X1']]

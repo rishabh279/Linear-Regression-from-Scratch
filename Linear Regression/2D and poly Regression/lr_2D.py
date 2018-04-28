@@ -10,7 +10,7 @@ import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('E:/RS/ML/lazy/self code lazy/Linear Regression/data_2d.csv',header=None)
+dataset=pd.read_csv('',header=None)
 
 X=dataset.iloc[:,:2]
 Y=dataset.iloc[:,2]
